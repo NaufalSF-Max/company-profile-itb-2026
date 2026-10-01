@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+
+    <!-- Tulisan ini muncul di tab browser sebagai judul halaman -->
+    <title>Innovation Labs - Company Profile</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font dari Google. Link-nya panjang, tidak perlu dihafal :) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- ============================= HEADER / NAVBAR ============================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand">
+        <span class="brand-mark">IL</span>
+        <span class="brand-text">
+          <strong>Innovation Labs</strong>
+          <small>Kelompok 29 &middot; IT Bootcamp HIMTIKA</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#hero">Beranda</a>
+        <a href="#poster">Poster STBI</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#tim">Tim</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============================= HERO SECTION ============================= -->
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <span class="chip">Kelompok 29 &bull; IT Bootcamp HIMTIKA Unsika</span>
+      <h1>Innovation Labs</h1>
+      <p class="hero-sub">
+        Lebih dari sekadar kelompok, kami adalah ruang eksperimen. Tempat di mana ide-ide mentah diuji, di-debug, dan ditransformasi menjadi inovasi nyata.
+      </p>
+      <div class="hero-actions">
+        <a href="#poster" class="btn btn-primary">Lihat Poster STBI</a>
+        <a href="#tentang" class="btn btn-ghost">Baca Filosofi Kami</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= PENYELENGGARA ============================= -->
+  <section class="partners" aria-label="Penyelenggara acara">
+    <div class="container partners-inner">
+      <div class="partners-logos">
+
+        <div class="partner">
+          <img src="assets/logo/logo_itb.png" alt="Logo IT Bootcamp" onerror="this.remove()" />
+          <span class="partner-text">
+            <small>Kegiatan</small>
+            <strong>IT Bootcamp</strong>
+          </span>
+        </div>
+
+        <div class="partner">
+          <img src="assets/logo/himtika.png" alt="Logo HIMTIKA Unsika" onerror="this.remove()" />
+          <span class="partner-text">
+            <small>Diselenggarakan oleh</small>
+            <strong>HIMTIKA Unsika</strong>
+          </span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= POSTER STBI (WAJIB) ============================= -->
+  <section id="poster" class="section">
+    <div class="container poster-grid">
+      <div class="poster-image">
+        <img src="assets/poster/poster-stbi.jfif" alt="Poster STBI Kelompok 29"
+          onerror="this.parentElement.classList.add('img-fallback')" />
+      </div>
+      <div class="poster-info">
+        <span class="eyebrow">Poster Resmi Acara</span>
+        <h2>Poster STBI Kelompok Kami</h2>
+        <p>
+          Poster STBI kami mengusung konsep 'The Canvas of Ideas'. Dengan gaya ilustrasi doodle yang simpel, kasual, dan retro, poster ini mendobrak stigma bahwa dunia IT selalu kaku dan dipenuhi kode yang rumit. Kami ingin menyampaikan pesan bahwa setiap inovasi teknologi yang hebat selalu bermula dari coretan ide-ide sederhana yang liar dan menyenangkan.
+        </p>
+        <p>
+          Bagi kami, Innovation Labs bukanlah fasilitas riset yang membosankan, melainkan ruang bermain untuk logika dan kreativitas. Elemen-elemen doodle seperti lampu pijar, roket, roda gigi, dan kepingan puzzle yang beterbangan di sekitar kami melambangkan proses brainstorming beragam ide mentah yang sedang dirakit. Visual ini merepresentasikan budaya kerja kelompok kami: kolaboratif, penuh eksperimen santai, namun pada akhirnya setiap elemen akan terhubung menjadi satu solusi nyata.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= TENTANG / FILOSOFI NAMA (WAJIB) ============================= -->
+  <section id="tentang" class="section section-muted">
+    <div class="container tentang-grid">
+      <div class="tentang-text">
+        <span class="eyebrow">Filosofi Kelompok</span>
+        <h2>Kenapa Kami Memilih Nama Ini?</h2>
+        <p>
+          Kami memilih nama Innovation Labs karena kami melihat kelompok ini sebagai sebuah laboratorium hidup. Di dalam laboratorium, sebuah eksperimen yang gagal bukanlah jalan buntu, melainkan sekumpulan data baru yang akan menuntun pada formula yang lebih optimal.
+        </p>
+        <p>
+          Dalam perjalanan di IT Bootcamp ini, kami memegang prinsip tersebut. Setiap baris kode yang error, perdebatan menentukan layout UI/UX, atau tantangan menerapkan clean architecture adalah bagian dari proses penelitian kami. Innovation Labs adalah komitmen tim kami untuk tidak takut membedah masalah, terus menguji batas kemampuan diri, dan melahirkan solusi yang efisien serta profesional.
+        </p>
+      </div>
+      <div class="tentang-visual">
+        <div class="monogram">IL</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= TIM: KABING + ANGGOTA (WAJIB) ============================= -->
+  <section id="tim" class="section">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow">Struktur Tim</span>
+        <h2>Kabing &amp; Anggota Kelompok</h2>
+      </div>
+
+      <div class="team-showcase">
+        <div class="team-photo-frame">
+          <img src="assets/foto-tim/foto-kelompok.jpeg" alt="Foto bersama Kabing dan seluruh anggota kelompok"
+            onerror="this.parentElement.classList.add('img-fallback')" />
+        </div>
+
+        <div class="team-names">
+          <div class="kabing-row">
+            <span class="badge-kabing">Kakak Pembimbing</span>
+            <h3>Naufal Syafiq Fadhillah</h3>
+          </div>
+
+          <h3 class="names-title">Anggota Kelompok</h3>
+
+          <ul class="member-list">
+            <li>Ferdi Yansah</li>
+            <li>Mahesa Muhammad Nabil</li>
+            <li>Geral Tritama Wahyuady</li>
+            <li>Raika Maulana Dwi Putra</li>
+            <li>Muhammad Rizky Dermawan</li>
+            <li>Muhammad Jibran Tariq</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- ============================== GALERI KEGIATAN (OPSIONAL) ============================= -->
+  <!-- Jika masih ada waktu akan di lakukan, jika tidak tidak akan di tunjukkan -->
+  <section id="galeri" class="section section-muted">
+    <div class="container">
+      <div class="section-heading">
+        <span class="eyebrow">Dokumentasi</span>
+        <h2>Galeri Kelompok</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="assets/galeri/foto1.jpeg" alt="Kegiatan 1" /></div>
+        <div class="gallery-item"><img src="assets/galeri/foto2.jpeg" alt="Kegiatan 2" /></div>
+        <div class="gallery-item"><img src="assets/galeri/foto3.jpeg" alt="Kegiatan 3" /></div>
+      </div>
+    </div>
+  </section>
+ 
+
+  <!-- ============================= FOOTER ============================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        &copy; 2026 Innovation Labs (Kelompok 29) &middot; IT Bootcamp HIMTIKA
+        Unsika
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
