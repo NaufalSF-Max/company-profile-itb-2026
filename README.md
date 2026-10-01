@@ -12,17 +12,10 @@ company-profile/
 ├── js/
 │   └── script.js       <- Interaksi kecil (menu mobile)
 └── assets/
-    ├── poster/          <- Taruh file poster STBI di sini
-    └── foto-tim/         <- Taruh 1 foto bersama Kabing + semua anggota di sini
+    ├── poster/         <- Taruh file poster STBI di sini
+    └── foto-tim/       <- Taruh 1 foto bersama Kabing + semua anggota di sini
+    └── logo/           <- Taruh logo Himtika dan IT Bootcamp 2026 disini
 ```
-
-## Langkah Edit Cepat
-
-1. Buka `index.html`, cari tulisan **"GANTI:"** di dalam komentar — itu bagian yang wajib diubah.
-2. Ganti nama kelompok, tagline, dan filosofi nama di bagian **Hero** dan **Tentang Kami**.
-3. Taruh foto asli di folder `assets/` sesuai nama filenya (atau ganti nama file di `src="..."` biar sesuai punya kalian).
-4. Section Tim pakai 1 foto bersama + daftar nama. Tulis nama Kabing dan anggota di daftar; mau tambah nama, copy satu baris `<li>...</li>`.
-5. Belum ada foto? Tidak apa-apa — otomatis muncul kotak "Foto belum diupload", website tetap rapi.
 
 ## Cara Deploy ke GitHub Pages
 
